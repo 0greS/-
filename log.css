@@ -1,0 +1,71 @@
+html {
+    background-color:#41b3a3;
+    background-blend-mode:overlay;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+}
+body {
+    background-color:transparent;
+}
+.registration-cssave{
+    padding:50px 0;
+}
+.registration-cssave form {
+    max-width:800px;
+    padding:50px 70px;
+    border-radius:10px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+}
+.registration-cssave form h3 {
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.registration-cssave .item {
+    border-radius:10px;
+    margin-bottom:25px;
+    padding:10px 20px;
+}
+.registration-cssave .create-account {
+    border-radius:30px;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#41b3a3;
+    border:none;
+    color:white;
+    margin-top:20px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-group1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-account:hover{background-color: #e8a87c;}
+@media (max-width: 576px) {
+    .registration-cssave form {
+        padding:50px 20px;
+    }
+}
+.netac{
+    color: black;
+    text-decoration: none;
+}
+.netac:hover{color: #e8a87c;}
+
+.msg{
+    border: 2px solid #e8a87c;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
